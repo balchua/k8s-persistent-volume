@@ -12,5 +12,5 @@ spec:
     - ReadWriteMany
   nfs:
     # FIXME: use the right IP
-    server: 10.130.26.56
+    server: 10.130.37.168
     path: "/export/files"
