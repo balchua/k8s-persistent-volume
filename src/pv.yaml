@@ -11,6 +11,5 @@ spec:
   accessModes:
     - ReadWriteMany
   nfs:
-    # FIXME: use the right IP
-    server: 10.130.37.168
+    server: nfs-server.geek.per.sg
     path: "/export/files"
